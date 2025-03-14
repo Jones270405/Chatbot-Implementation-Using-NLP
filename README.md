@@ -2,5 +2,5 @@
 Project on Implementation of Chatbot using NLP
 
 To run streamlit use the command as
-# streamlit run chatbot.py
+_**streamlit run chatbot.py**_
 This is run in cmd. 
