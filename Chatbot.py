@@ -15,7 +15,7 @@ nltk.download('punkt')
 
 # Load intents from the JSON file
 #file_path = os.path.abspath("/Users/raghunandanms/Documents/Work/AICTE Internship 4/Implementation of Chatbot using NLP/Week-wise Report files/Week 1/intents.json")
-file_path = os.path.abspath("C:\Users\Admin\OneDrive\Desktop\Chatbot implementation using NLP 2025\Chatbot_using_NLP_AICTE_Cycle4\intents.json")
+file_path = os.path.abspath(r'C:\Users\Admin\OneDrive\Desktop\Chatbot implementation\Chatbot-Implementation-using-NLP\intents.json')
 with open(file_path, "r") as file:
     intents = json.load(file)
 
@@ -131,3 +131,4 @@ def main():
 
 if __name__ == '__main__':
     main()
+
